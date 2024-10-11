@@ -20,10 +20,13 @@ public class UsaContoCorrente {
 		
 		System.out.println(c1);
 		
-		
+		// creiamo un dipedente d1 passando i valori al costruttore
 		Dipendente d1 = new Dipendente("Rossi", "impiegato", 2000);
 		
 		System.out.println(d1);
+		
+		
+		// creiamo una rayylist di tipo dipendente 
 		
 		
 	}

@@ -17,6 +17,15 @@ public class Dipendente {
 	}
 	
 	// rappresentazione testuale di un oggetto dipendente
+	
+	
+	public void setBonus() {
+		
+		this.stipendio += 200;
+	}
+	
+	
+	
 	@Override
 	public String toString() {
 		return "Dipendente [cognome=" + cognome + ", mansione=" + mansione + ", stipendio=" + stipendio + "]";

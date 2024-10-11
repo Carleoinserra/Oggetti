@@ -23,7 +23,7 @@ public class ContoCorrente {
 		
 		this.saldo -= importo;
 	}
-	
+	// andiamo a scrivere il metodo toString che ritorna una rappresentazione testuale dell'oggetto
 	public String toString() {
 		
 		return "Il saldo residuo del conto è "  + saldo;
